@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TaskForm</class>
+ <widget class="QWidget" name="TaskForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>729</width>
+    <height>525</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="taskText">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>10</y>
+     <width>721</width>
+     <height>371</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Academy Engraved LET</family>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Текст задания</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>370</y>
+     <width>361</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QLabel" name="YourAnswerlabel">
+        <property name="text">
+         <string>Ваш ответ:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="AnswerLineEdit"/>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QPushButton" name="TryButton">
+        <property name="text">
+         <string>Сдать</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="LoseButton">
+        <property name="text">
+         <string>Выйти</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QLabel" name="statusLabel">
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
